@@ -18,9 +18,12 @@ body {
 }
 
 /* Header */
-h1 {
+.hero {
     text-align: center;
-    color: #b36b00;
+    background: #b36b00;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
 }
 
 /* Buttons */
@@ -53,38 +56,11 @@ h1 {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.service-card h3 {
-    color: #b36b00;
-}
-
-/* Testimonials */
-.testimonials {
-    margin-top: 20px;
-    background: #fff;
-    padding: 20px;
+/* Portfolio */
+.portfolio-gallery img, .portfolio-gallery video {
+    width: 100%;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-.testimonials p {
-    font-style: italic;
-    color: #555;
-}
-
-/* Contact Section */
-.contact {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.contact a {
-    color: #b36b00;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.contact a:hover {
-    text-decoration: underline;
+    margin-top: 10px;
 }
 
 /* Responsive Design */
