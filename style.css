@@ -34,26 +34,28 @@ body {
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    text-align: center;
 }
 
 .btn:hover {
     background-color: #945200;
 }
 
-/* Services Section */
-.services {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    text-align: center;
+/* Services Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
 }
 
-.service-card {
-    background: #fff;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: #b36b00;
+    color: white;
 }
 
 /* Portfolio */
@@ -67,8 +69,5 @@ body {
 @media (max-width: 768px) {
     .container {
         width: 90%;
-    }
-    .services {
-        grid-template-columns: 1fr;
     }
 }
